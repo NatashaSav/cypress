@@ -9,6 +9,8 @@
     "cypress": "~4.12.*"
   },
   "scripts": {
+    "cypress": "./node_modules/.bin/cypress",
+    "serve": "npm run cypress open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
