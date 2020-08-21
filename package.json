@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "cypress": "~4.12.*"
+    "cypress": "~4.12.*",
+    "cypress-iframe": "^1.0.1"
   },
   "scripts": {
     "cypress": "./node_modules/.bin/cypress",

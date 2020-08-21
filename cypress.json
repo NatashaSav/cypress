@@ -1,1 +1,7 @@
-{}
+{
+  " experimentalSourceRewriting " : true,
+  "chromeWebSecurity": false,
+  "viewportWidth": 1000,
+  "viewportHeight": 660,
+  "scaled": 100
+}
