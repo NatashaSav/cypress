@@ -11,10 +11,15 @@
     "mochawesome": "4.1.0"
   },
   "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
     "cypress": "./node_modules/.bin/cypress",
     "serve": "npm run cypress open",
     "run": " npm run cypress run --record --key 46ae6fe7-9c6c-4f78-bc9d-8e765455a3c5",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "recordDashBoardTest": "npm run test -- --record --key 46ae6fe7-9c6c-4f78-bc9d-8e765455a3c5 --reporter mochawesome",
+    "GreenKartTest": "npm run test -- --spec \"cypress/integration/GreenKart/*\""
+
   },
   "repository": {
     "type": "git",
