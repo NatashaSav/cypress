@@ -19,7 +19,6 @@
     "run": " npm run cypress run --record --key 46ae6fe7-9c6c-4f78-bc9d-8e765455a3c5",
     "recordDashBoardTest": "npm run test -- --record --key 46ae6fe7-9c6c-4f78-bc9d-8e765455a3c5 --reporter mochawesome",
     "GreenKartTest": "npm run test -- --spec \"cypress/integration/GreenKart/*\""
-
   },
   "repository": {
     "type": "git",
