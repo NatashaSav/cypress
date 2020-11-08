@@ -1,0 +1,9 @@
+version: '2'
+services:
+  reporter:
+    build: ./docker
+    ports:
+      - "5000:8080"
+  e2e:
+    build: ./docker
+    command: 'npm run test --browser chrome'
